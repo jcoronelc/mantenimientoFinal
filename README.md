@@ -74,5 +74,25 @@
     ```bash
     python manage.py runserver
     ```
+## Ejecutar el front end
+1. **Navegar al directorio del proyecto:**
 
+   Cambia al directorio donde se encuentra el código del front end.
+
+   ```bash
+   cd goTogetherApp-ServerTrip
+
+2. **Instala las dependencias:**
+
+   Instala todas las dependencias del proyecto con el siguiente comando:
+
+   ```bash
+   npm install 'react-scripts'
+
+3. **Ejecuta la aplicación:**
+
+   Ejecuta el front end con el siguiente comando:
+
+   ```bash
+   npm start
 
