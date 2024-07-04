@@ -1,0 +1,44 @@
+
+.react-datepicker__header {
+
+    background-color:  #1e3a8a; 
+    /* background-image: linear-gradient(to top, #3b82f6, #172554); */ 
+}
+
+.react-datepicker__current-month, .react-datepicker__day-name {
+   
+        color: #dbeafe;
+}
+
+.react-datepicker-time__header, .react-datepicker-year-header {
+    color: #dbeafe;
+}
+/* 
+.react-datepicker__day {
+    color: #60a5fa;
+} */
+
+.react-datepicker__navigation-icon::before {
+    border-color: #dbeafe
+    ;
+}
+
+.react-datepicker__day--selected{
+    background-color: #93c5fd
+}
+
+.react-datepicker__day--keyboard-selected{
+    background-color: #1e3a8a;
+    color:white
+}
+
+  .react-datepicker__day--keyboard-selected:hover{
+    background-color: #60a5fa;
+    color:white
+
+  }
+
+  .react-datepicker__navigation:hover *::before {
+    border-color: #60a5fa;
+}
+
